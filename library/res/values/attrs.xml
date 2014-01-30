@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedPathView">
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="float"/>
+    </declare-styleable>
+</resources>
