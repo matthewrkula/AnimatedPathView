@@ -27,6 +27,31 @@ I will be fixing this in the future. So layout_width and layout_height must be s
 Example: This will create a path that will draw a border around the top half of the screen
 and an X through the middle of it.<br>
 
+```xml
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.mattkula.animatedpathview.sample"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"     
+    android:layout_height="fill_parent">
+    
+    <com.mattkula.animatedpathview.library.AnimatedPathView 
+        android:id="@+id/animated_path" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:layout_weight="1" 
+        app:strokeColor="@android:color/holo_red_light" 
+        app:strokeWidth="10"/>
+        
+    <TextView 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:layout_weight="1" 
+        android:text="Press top half of screen"/>
+        
+</LinearLayout>
+```
+
 ```java
 final AnimatedPathView view = (AnimatedPathView)findViewById(R.id.animated_path);
 
