@@ -5,6 +5,10 @@ import android.content.res.TypedArray;
 import android.graphics.*;
 import android.util.AttributeSet;
 import android.view.View;
+import com.caverock.androidsvg.SVG;
+import com.caverock.androidsvg.SVGParseException;
+
+import java.io.IOException;
 
 /**
  * Created by matt on 1/28/14.
@@ -55,6 +59,20 @@ public class AnimatedPathView extends View {
         mPath = p;
         PathMeasure measure = new PathMeasure(mPath, false);
         mPathLength = measure.getLength();
+    }
+
+    public void setPath(float[]... points){
+        if(points.length == 0)
+            throw new IllegalArgumentException("Cannot have zero points in the line");
+
+        Path p = new Path();
+        p.moveTo(points[0][0], points[0][1]);
+
+        for(int i=1; i < points.length; i++){
+            p.lineTo(points[i][0], points[i][1]);
+        }
+
+        setPath(p);
     }
 
     public void setPercentage(float percentage){

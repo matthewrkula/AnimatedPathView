@@ -27,16 +27,17 @@ public class MyActivity extends Activity {
             public void onGlobalLayout() {
                 view.getViewTreeObserver().removeGlobalOnLayoutListener(this);
 
-                Path p = new Path();
-                p.moveTo(0, 0);
-                p.lineTo(view.getWidth(), 0);
-                p.lineTo(view.getWidth(), view.getHeight());
-                p.lineTo(0, view.getHeight());
-                p.lineTo(0, 0);
-                p.lineTo(view.getWidth(), view.getHeight());
-                p.lineTo(view.getWidth(), 0);
-                p.lineTo(0, view.getHeight());
-                view.setPath(p);
+                float[][] points = new float[][]{
+                        {0, 0},
+                        {view.getWidth(), 0},
+                        {view.getWidth(), view.getHeight()},
+                        {0, view.getHeight()},
+                        {0, 0},
+                        {view.getWidth(), view.getHeight()},
+                        {view.getWidth(), 0},
+                        {0, view.getHeight()}
+                };
+                view.setPath(points);
             }
         });
 

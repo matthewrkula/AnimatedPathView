@@ -81,7 +81,7 @@
       <file leaf-file-name="AnimatedPathView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/com/mattkula/animatedpathview/library/AnimatedPathView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="73" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1755">
+            <state line="71" column="20" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2025">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,13 +92,8 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/src/com/mattkula/animatedpathview/sample/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.4488189" vertical-offset="0" max-vertical-offset="750">
-              <folding>
-                <element signature="e#820#1478#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-                <element signature="e#1514#1861#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
-              </folding>
+            <state line="30" column="24" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.40944883" vertical-offset="25" max-vertical-offset="675">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,7 +101,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="44" selection-start="415" selection-end="415" vertical-scroll-proportion="-2.6470587" vertical-offset="0" max-vertical-offset="390">
+            <state line="1" column="14" selection-start="53" selection-end="209" vertical-scroll-proportion="-0.29411766" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -118,7 +113,7 @@
       <file leaf-file-name="attrs.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/res/values/attrs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="180">
+            <state line="4" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -173,6 +168,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -270,9 +266,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimatedPathView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,9 +299,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/libs/androidsvg-1.2.0.jar!/" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="d803e8ba" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library/libs" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.sample">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -329,19 +343,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -367,6 +368,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -467,7 +481,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991913" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991913" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -477,7 +491,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,6 +529,39 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/library/src/com/mattkula/animatedpathview/library/AnimatedPathView.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="60" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1755">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/com/mattkula/animatedpathview/sample/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="31" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="53" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/com/mattkula/animatedpathview/library/AnimatedPathView.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="23" selection-start="1971" selection-end="1971" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2010">
           <folding>
             <element signature="imports" expanded="true" />
@@ -525,12 +572,7 @@
     <entry file="file://$PROJECT_DIR$/sample/src/com/mattkula/animatedpathview/sample/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="705">
-          <folding>
-            <element signature="e#820#1478#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1514#1861#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,16 +583,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="415" selection-end="415" vertical-scroll-proportion="-2.6470587" vertical-offset="0" max-vertical-offset="390">
+        <state line="1" column="14" selection-start="53" selection-end="209" vertical-scroll-proportion="-0.29411766" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
@@ -558,9 +593,16 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/com/mattkula/animatedpathview/library/AnimatedPathView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="73" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1755">
+        <state line="71" column="20" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2025">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -569,13 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/com/mattkula/animatedpathview/sample/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.4488189" vertical-offset="0" max-vertical-offset="750">
-          <folding>
-            <element signature="e#820#1478#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1514#1861#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-          </folding>
+        <state line="30" column="24" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.40944883" vertical-offset="25" max-vertical-offset="675">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +668,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sample</last-edited>
+          <last-edited>library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
