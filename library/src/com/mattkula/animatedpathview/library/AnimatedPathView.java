@@ -5,13 +5,9 @@ import android.content.res.TypedArray;
 import android.graphics.*;
 import android.util.AttributeSet;
 import android.view.View;
-import com.caverock.androidsvg.SVG;
-import com.caverock.androidsvg.SVGParseException;
-
-import java.io.IOException;
 
 /**
- * Created by matt on 1/28/14.
+ * Created by Matt
  */
 public class AnimatedPathView extends View {
 
@@ -61,6 +57,10 @@ public class AnimatedPathView extends View {
         mPathLength = measure.getLength();
     }
 
+    /**
+     * Set the drawn path using an array of array of floats. First is x parameter, second is y.
+     * @param points The points to set on
+     */
     public void setPath(float[]... points){
         if(points.length == 0)
             throw new IllegalArgumentException("Cannot have zero points in the line");
