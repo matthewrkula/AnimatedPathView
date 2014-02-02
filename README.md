@@ -83,3 +83,18 @@ view.setOnClickListener(new View.OnClickListener() {
     }
 }); 
 ```
+
+If you just want to use straight lines, you can use an array of points to specify your path such as:
+```java
+float[][] points = new float[][]{
+        {0, 0},
+        {view.getWidth(), 0},
+        {view.getWidth(), view.getHeight()},
+        {0, view.getHeight()},
+        {0, 0},
+        {view.getWidth(), view.getHeight()},
+        {view.getWidth(), 0},
+        {0, view.getHeight()}
+};
+view.setPath(points);
+```
