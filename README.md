@@ -1,6 +1,9 @@
 AnimatedPathView
 ================
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AnimatedPathView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1317)
+
+
 An animated path view following the methods in a blog post from Romain Guy here:<br>
 http://www.curious-creature.org/2013/12/21/android-recipe-4-path-tracing/<br>
 Per the blog post, I will be adding SVG support soon.
